@@ -1,7 +1,8 @@
 # ASM Dev
 
-nasm -f elf64 f.asm -o f.o
-ld f.o -o f
+`nasm -f elf64 f.asm -o f.o`
+
+`ld f.o -o f`
 
 # Notes
 
@@ -10,6 +11,7 @@ ld f.o -o f
 A command for the CPU to perform certain actions. E.g.
 
 `mov` - Transfer data from one register to another
+
 `int` - Is used to generate Interrupt, mostly to request services from OS(Sys Calls)
 
 - Register
@@ -24,8 +26,12 @@ There are two types,
 E.g.,
 
 `eax` - Accumulator, Used to temporarily store results of computation
+
 `ebx` - Base pointer for memory access
+
 `edx` - I/O Operations, also holds intermediate results in arithmetic operations (e.g. remainder of a division)
+
+
 
 
 
