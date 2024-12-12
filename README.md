@@ -29,10 +29,24 @@ E.g.,
 
 `ebx` - Base pointer for memory access.
 
-`edx` - I/O Operations, also holds intermediate results in arithmetic operations (e.g. remainder of a division).
+`edx` - I/O Operations, also holds intermediate results in arithmetic operations 
+(e.g. remainder of a division).
 
 `ecx` - Used for data manipulation. Often used as a counter in loop and string manipulation.
 
 
+- Directive
 
+Assembler directives are special instructions in assembly language that provide guidance to 
+the assembler on how to process the source code. E.g.,
+
+`data` -  Marks the beginning of a data segment where initialized data is defined.
+
+`text` - Indicates the start of the code segment where executable instructions are located.
+
+`equ` - Defines a constant value
+
+`bss` - Reserves space for uninitialized data.
+
+`org` - Sets the origin or starting address for subsequent instructions or data.
 
