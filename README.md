@@ -25,13 +25,13 @@ There are two types,
 
 E.g.,
 
-`eax` - Accumulator, Used to temporarily store results of computation
+`eax` - Accumulator, Used to temporarily store results of computation.
 
-`ebx` - Base pointer for memory access
+`ebx` - Base pointer for memory access.
 
-`edx` - I/O Operations, also holds intermediate results in arithmetic operations (e.g. remainder of a division)
+`edx` - I/O Operations, also holds intermediate results in arithmetic operations (e.g. remainder of a division).
 
-
+`ecx` - Used for data manipulation. Often used as a counter in loop and string manipulation.
 
 
 
