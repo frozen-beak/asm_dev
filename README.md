@@ -50,3 +50,16 @@ the assembler on how to process the source code. E.g.,
 
 `org` - Sets the origin or starting address for subsequent instructions or data.
 
+
+- Common Conditional Jumps
+
+```asm
+
+je A, B		; Jump if equal
+jne A, B	; Jump if not equal
+jg A, B		; Jump if greater
+jge A, B	; Jump if greater or equal
+jl A, B		; Jump if less
+jle A, B	; Jump if less or equal
+
+```
