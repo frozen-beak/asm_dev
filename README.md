@@ -63,3 +63,16 @@ jl A, B		; Jump if less
 jle A, B	; Jump if less or equal
 
 ```
+
+
+- Stack
+
+`esp` - Stack pointer, always points to the top of the stack in memory
+
+
+- Common Data Types
+
+`db` - Stores 1 byte
+`dw` - Stores 2 bytes
+`dd` - Stores 4 bytes
+
