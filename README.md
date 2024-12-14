@@ -44,7 +44,7 @@ the assembler on how to process the source code. E.g.,
 
 `text` - Indicates the start of the code segment where executable instructions are located.
 
-`equ` - Defines a constant value
+`equ` - Defines/assigns a constant value to a symbolic name
 
 `bss` - Reserves space for uninitialized data.
 
@@ -73,6 +73,9 @@ jle A, B	; Jump if less or equal
 - Common Data Types
 
 `db` - Stores 1 byte
+
 `dw` - Stores 2 bytes
+
 `dd` - Stores 4 bytes
+
 
