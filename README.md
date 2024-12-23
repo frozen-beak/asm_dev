@@ -69,7 +69,6 @@ jle A, B	; Jump if less or equal
 
 `esp` - Stack pointer, always points to the top of the stack in memory
 
-
 - Common Data Types
 
 `db` - Stores 1 byte
